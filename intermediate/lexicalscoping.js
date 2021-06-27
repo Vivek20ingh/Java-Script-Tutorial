@@ -30,7 +30,7 @@ var add5 = add(4);
 var z=add5(50);
 console.log(z);
 
-z=add(4)(5);
+z=add(4)(5);//curring
 
 console.log(z);
 
